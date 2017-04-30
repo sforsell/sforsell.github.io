@@ -1,29 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab');
+	* {
+		margin: 0;
+		padding: 0;
+	}
 
-	 body {
-	 	font-family: sans-serif;
-	 }
+	body {
+		font-family: 'Josefin Slab', serif;
+		font-size: 18px;
+		margin-bottom: 100px;
+	}
 
-	 h1 {
-	 	line-height: 5px;
-	 }
+	#bg {
+		height: 500px;
+		background-image: url("./img/bg.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+		background-position: center 30%;
+		margin-bottom: 10px;
+	}
 
-	 main {
-	 	width: 70%;
-	 	margin: 0 auto;
-	 }
+	#centered {
+		padding-top: 150px;
+        text-align: center;
+        color: white;
+	}
 
-	  main>img {
-	 	height: 250px;
-	 }
+	#centered>h1 {
+		font-size: 6em;
+	}
 
-	 table, th, td {
-	 	border: 1px solid black;
-	 	border-collapse: collapse;
-	 	padding: 3px;
-	 }
-	 
-	 a {
-	 	text-decoration: none;
-	 	font-weight: 900;
-	 }
+	h1, h2, h3, h4, h5, h6 {
+	 	font-family: 'Amatic SC', cursive;
+	 	margin-bottom: 15px;
+	 	font-size: 2em;
+	 	text-transform: uppercase;
+	}
+
+	p {
+		margin-bottom: 15px;
+	}
+
+	main {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	main>img {
+		height: 250px;
+	}
+
+	table, th, td {
+		border: 1px solid DarkSlateGrey;
+		border-collapse: collapse;
+		padding: 5px;
+	}
+
+	table {
+		margin-bottom: 15px;
+	}
+
+	th {
+		font-weight: 900;
+		background-color: WhiteSmoke;
+	}
+
+	td:first-child {
+		text-align: center;
+	}
+
+	ul {
+		margin-bottom: 15px;
+	}
+
+	a {
+		text-decoration: none;
+		color: Teal;
+		font-weight: 900;
+	}
+
+	a:hover {
+		text-shadow: 1px 1px 1px #006666;
+	}
+
+
 

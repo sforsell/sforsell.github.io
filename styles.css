@@ -15,8 +15,8 @@
 		background-image: url("./img/bg.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-size: 100%;
-		background-position: center 30%;
+		background-size: 150%;
+		background-position: 50% 200%;
 		margin-bottom: 10px;
 	}
 
@@ -28,6 +28,7 @@
 
 	#centered>h1 {
 		font-size: 6em;
+		text-shadow: 1px 1px 4px black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -42,8 +43,7 @@
 	}
 
 	main {
-		width: 70%;
-		margin: 0 auto;
+		padding: 15px;
 	}
 
 	main>img {
@@ -71,6 +71,7 @@
 
 	ul {
 		margin-bottom: 15px;
+		list-style-position: inside;
 	}
 
 	a {
@@ -81,6 +82,20 @@
 
 	a:hover {
 		text-shadow: 1px 1px 1px #006666;
+	}
+
+	@media only screen and (min-width: 768px) {
+		main {
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		#bg {
+			background-size: 100%;
+			background-position: center 90%;
+
+		}
+
 	}
 
 

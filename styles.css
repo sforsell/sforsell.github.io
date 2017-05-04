@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab');
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: 'Josefin Slab', serif;
+		font-size: 18px;
+		margin-bottom: 100px;
+	}
+
+	#bg {
+		height: 400px;
+		background-image: url("./img/bg.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 180%;
+		background-position: 50% -150px;
+		margin-bottom: 10px;
+	}
+
+	#centered {
+		padding-top: 60px;
+        text-align: center;
+        color: white;
+	}
+
+	#centered>h1 {
+		font-size: 5em;
+		text-shadow: 1px 1px 4px black;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+	 	font-family: 'Amatic SC', cursive;
+	 	margin-bottom: 15px;
+	 	font-size: 2em;
+	 	text-transform: uppercase;
+	}
+
+	p {
+		margin-bottom: 15px;
+	}
+
+	main {
+		padding: 15px;
+	}
+
+	main>img {
+		height: 250px;
+	}
+
+	table, th, td {
+		border: 1px solid DarkSlateGrey;
+		border-collapse: collapse;
+		padding: 5px;
+	}
+
+	table {
+		margin-bottom: 15px;
+	}
+
+	th {
+		font-weight: 900;
+		background-color: WhiteSmoke;
+	}
+
+	td:first-child {
+		text-align: center;
+	}
+
+	ul {
+		margin-bottom: 15px;
+		list-style-position: inside;
+	}
+
+	a {
+		text-decoration: none;
+		color: #1fada6;
+		font-weight: 900;
+	}
+
+	a:hover {
+		text-shadow: 1px 1px 1px #006666;
+	}
+
+	a:visited {
+		color: Teal;
+	}
+
+	.diff {
+		color: LightGrey;
+	}
+
+	.diff a {
+		color: grey;
+	}
+
+	@media only screen and (min-width: 500px) {
+		main {
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		#bg {
+			background-size: 160%;
+			background-position: center -300px;
+
+		}
+
+		#centered {
+		padding-top: 150px;
+		}
+
+	}
+
+	@media only screen and (min-width: 750px) {
+
+		#bg {
+			height: 500px;
+			background-size: 140%;
+			background-position: center -400px;
+
+		}
+
+
+	}
+
+	@media only screen and (min-width: 1200px) {
+
+		#bg {
+			height: 500px;
+			background-size: 100%;
+			background-position: center -550px;
+
+		}
+
+	}
+
+
+	@media only screen and (min-width: 1700px) {
+
+		#bg {
+			height: 500px;
+			background-size: 100%;
+			background-position: center -850px;
+
+		}
+
+	}
+
+	/*I could also cut the original bg photo so that I didn't have to use so many 
+	different media queries for it to look its best but... practice makes perfect!*/
+
+
+
+
